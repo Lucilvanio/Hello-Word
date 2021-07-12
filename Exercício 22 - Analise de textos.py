@@ -1,0 +1,7 @@
+t = str(input('Digite seu nome: ')).strip()
+print(f'Seu nome maiusculo é {t.upper()}')
+print(f'Em minusculo é {t.lower()}')
+print(f'Seu nome tem {len(t) - t.count(" ")} letras')
+print(f'Seu primeiro nome tem {t.find(" ")} letras')
+pn = t.split()
+print(f'Seu primeiro nome é {pn[0]} e seu ultimo nome é {pn[-1]}  ')

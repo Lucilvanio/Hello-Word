@@ -1,0 +1,5 @@
+print('CALCULADORA DE ALUGUEL VEICULAR')
+print('-=-'*12)
+d = float(input('Dias alugado: '))
+km = float(input('Quilometros rodados:'))
+print(f'O valor do aluguel do veículo é de {(d*60)+(km*.15):.2f}')
